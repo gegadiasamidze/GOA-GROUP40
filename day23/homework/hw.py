@@ -1,0 +1,1 @@
+#gunduri iyo da ver gavakete
