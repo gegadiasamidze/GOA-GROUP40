@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Georgia Flag</title>
+  <style>
+    .georgia-flag {
+      width: 320px;
+      height: 200px;
+      background-color: white;
+      position: relative;
+    }
+    .cross, .plus {
+      position: absolute;
+      background-color: red;
+    }
+    .cross {
+      width: 30px;
+      height: 200px;
+      top: 0;
+      left: 145px;
+    }
+    .plus {
+      width: 200px;
+      height: 30px;
+      top: 85px;
+      left: 60px;
+    }
+    .georgia-flag .cross::befor, .georgia-flag .plus::before {
+      content: '';
+      position: absolute;
+      background-color: red;
+    }
+    .georgia-flag .cross::before {
+      width: 30px;
+      height: 30px;
+      left: -15px;
+      top: 85px;
+    }
+    .georgia-flag .plus::befor {
+      width: 30px;
+      height: 30px;
+      left: 85px;
+      top: -15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="georgia-flag">
+    <div class="cross"></div>
+    <div class="plus"></div>
+  </div>
+</body>
+</html>
